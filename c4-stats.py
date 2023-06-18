@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import sys
 import subprocess
 import csv
@@ -11,7 +9,7 @@ import dateutil.parser
 import datetime
 
 CODE_ARENA = "https://raw.githubusercontent.com/code-423n4/code423n4.com/main/_data"
-FINDINGS_URL = f"{CODE_ARENA}/findings/findings.csv"
+FINDINGS_URL = f"https://code4rena.com/community-resources/findings.csv"
 CONTESTS_URL = f"{CODE_ARENA}/contests/contests.csv"
 OLD_CONTESTS_URL = "https://raw.githubusercontent.com/code-423n4/code423n4.com/74913b14b93923341b62f4e3df2ee475e7bf52f1/_data/contests/contests.csv"
 
